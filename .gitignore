@@ -1,3 +1,4 @@
+
 .*
 !.gitignore
 .swp
@@ -27,4 +28,3 @@ bin/unlocker/Unlocker.cfg
 .DS_Store
 
 dependencies.txt
-
