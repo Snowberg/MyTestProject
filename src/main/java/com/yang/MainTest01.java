@@ -12,7 +12,7 @@ public class MainTest01 {
     @Test
     public void test01() {
         Logger logger = LoggerFactory.getLogger(MainTest01.class);
-        logger.debug("test........");
+        logger.error("test........");
     }
 
 }
