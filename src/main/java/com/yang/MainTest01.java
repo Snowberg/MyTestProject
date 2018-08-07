@@ -1,6 +1,8 @@
 package com.yang;
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Created by zeyu on 16/3/16.
@@ -8,7 +10,9 @@ import org.junit.Test;
 public class MainTest01 {
 
     @Test
-    public void test01(){
-        System.out.print("ET");
+    public void test01() {
+        Logger logger = LoggerFactory.getLogger(MainTest01.class);
+        logger.debug("test........");
     }
+
 }
