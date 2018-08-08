@@ -13,7 +13,6 @@ public class MainTest01 {
     public void test01() {
         Logger logger = LoggerFactory.getLogger(MainTest01.class);
         logger.error("test........");
-
     }
 
 }
